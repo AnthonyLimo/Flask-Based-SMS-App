@@ -22,8 +22,8 @@ def showSendSMS():
 #route SMS sending route 
 #request sent via AJAX
 
-@app.route("/signUp", methods=["POST"])
-def signUp():
+@app.route("/sendSMS", methods=["POST"])
+def sendSMS():
     #Reading values from the UI
     _sms_message = request.form[]
     _phone_number = request.form[]
